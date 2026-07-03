@@ -1,8 +1,41 @@
-# Grok Register
+<div align="center">
 
-Grok Register 是一个 Python 自动化注册工具，支持 GUI 和 CLI 两种运行方式。项目可接入临时邮箱服务完成注册流程，并将成功账号保存到本地文件或写入 [grok2api](https://github.com/chenyme/grok2api) 令牌池。
+[![Grok Register — GUI and CLI registration automation toolkit](assets/banner.svg)](https://github.com/AaronL725/grok-register)
+
+Grok Register 是一个面向自动化流程研究、测试环境验证和个人学习的 Python 自动化注册工具 — 支持 GUI / CLI、临时邮箱、浏览器流程控制、账号输出和 grok2api token 池写入。
+
+<p align="center"><b>中文</b></p>
+
+<p>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB.svg" alt="Python 3.9+">
+  <img src="https://img.shields.io/badge/Interface-GUI%20%2B%20CLI-success.svg" alt="GUI + CLI">
+  <img src="https://img.shields.io/badge/Browser-Chromium%2FChrome-4285F4.svg" alt="Chromium/Chrome">
+  <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://linux.do"><img src="https://img.shields.io/badge/Join-linux.do-orange" alt="linux.do"></a>
+</p>
+
+</div>
+
+---
 
 > 本项目仅用于自动化流程研究、测试环境验证和个人学习。请遵守目标网站服务条款、当地法律法规和第三方服务限制。
+
+## Contents
+
+- [功能](#功能)
+- [环境要求](#环境要求)
+- [安装](#安装)
+- [配置](#配置)
+- [运行](#运行)
+- [输出文件](#输出文件)
+- [稳定性机制](#稳定性机制)
+- [常见问题](#常见问题)
+- [Git 忽略规则](#git-忽略规则)
+- [目录结构](#目录结构)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Star History](#star-history)
 
 ## 功能
 
